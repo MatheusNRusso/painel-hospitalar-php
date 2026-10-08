@@ -1,0 +1,60 @@
+# Ambientes virtuais Python
+venv/
+venv_hospital/
+.env/
+.env.bak/
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# SQLite e banco local
+*.sqlite3
+*.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PHP e Composer
+/vendor/
+# composer.lock (Removido para garantir builds reprodutíveis em aplicações)
+
+# Laravel/Symfony caches
+bootstrap/cache/
+storage/*.key
+storage/framework/cache/*
+storage/logs/*.log
+
+# IDEs e editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs e relatórios
+*.log
+/relatorio_producao/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos compactados e temporários
+*.zip
+*.tar.gz
+*.tmp
+*.bak
+
+# Arquivos gerados por build
+/dist/
+/build/
+
+# Prevenção de segurança e dumps de banco de dados
+*.sql
+backup.sql
